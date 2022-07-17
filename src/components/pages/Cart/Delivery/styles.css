@@ -1,0 +1,24 @@
+.delivery-subtitle {
+    margin: 0 0 0.5rem 0;
+}
+
+.delivery-info {
+    margin-left: auto;
+}
+
+.delivery-info * {
+    border-radius: 0,5rem;
+    height: 2rem;
+    width: 20rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.restaurant-selection {
+    height: 2.5rem;
+}
+
+.delivery-selection {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,23 @@
+.payment-method-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+    padding: 0.6rem;
+}
+
+.payment-method-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-method-info p {
+    margin: 0;
+}
+
+.payment-method-name {
+    font-weight: 700;
+}
+
+.payment-selection {
+    margin-left: auto;
+}

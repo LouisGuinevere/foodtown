@@ -1,0 +1,30 @@
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 12rem;
+    min-height: 12rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.category-container:hover {
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: var(--color-primary);
+}
+
+.category-container p {
+    margin: 0
+}
+
+.category-image {
+    height: 120px;
+    margin-top: 0.5rem;
+}
+
+.category-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -1,0 +1,20 @@
+.cart-container {
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    column-gap: 5%;
+    row-gap: 15%;
+    width: 100vw;
+}
+
+.cart-container > * {
+    height: fit-content;
+}
+
+.cart-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}

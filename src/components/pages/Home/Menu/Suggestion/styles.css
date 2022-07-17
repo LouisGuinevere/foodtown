@@ -1,0 +1,42 @@
+.suggestion-container {
+    margin: 1.5rem 0;
+}
+
+.suggestion-content {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    margin: 1rem 0 0 0;
+}
+
+.suggestion-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.suggestion-subtitle {
+    font-size: 1.1rem;
+    margin: 0
+}
+
+.suggestion-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.suggestion-pagination p {
+    cursor: pointer;
+}
+
+.suggestion-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.suggestion-header-right {
+    margin-left: auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
